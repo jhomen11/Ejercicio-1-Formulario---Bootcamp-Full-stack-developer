@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(64,53,222);
+    background: linear-gradient(90deg, rgba(64,53,222,1) 2%, rgba(108,71,124,1) 69%, rgba(114,97,212,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    background: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+label, p{
+    font-size: 12px;
+}
+.container{
+    background: white;
+    width: 550px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.main{
+    margin-top: 40px;
+    
+}
+
+.main-form{
+    padding: 40px;
+}
+
+.titulo{
+   font-weight: bold; 
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 20px;
+   
+}
+
+input{
+    padding: 7px;
+    border: 0;
+    background: rgb(236, 232, 232);
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.input-name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-name label{
+    margin-top: 10px;
+    color: rgb(214, 214, 214);
+
+}
+
+.field-phone{
+    width: 80px;
+}
+.field-cod{
+    width: 280px;
+}
+
+.field-company{
+    width: 399px;
+}
+
+.field-select{
+    border: none;
+    outline: none;
+    background: rgb(236, 232, 232);
+    border-radius: 3px;
+    width: 396px;
+    padding: 7px;
+}
+
+.input-radios p{
+    padding: 10px 0;
+}
+
+.input-radios label{
+    margin-right: 20px;
+}
+
+.btn{
+    background: rgb(220, 20, 20);
+    color: #fff;
+    margin: 10px 0 0 0;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+
+}
